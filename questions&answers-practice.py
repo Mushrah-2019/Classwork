@@ -73,6 +73,25 @@ name = "mac donald"
 name.title()
 print(name.title()) #Please how can one achieve MacDonald without putting space in btwn?
 
+"""
+To achieve this you have to use the power of concatenation 
+Let's split mac and donald and the one of Strings built-in method
+
+.capitalize()
+name = macdonald
+first_name = name[:3]
+print(first_name.capitalize())
+>>> Mac
+last_name = name[3:]
+print(last_name.capitalize())
+>>> Donald
+full_name = first_name + last_name
+>>> MacDonald
+
+
+"""
+
+
 #Question8....Write a code that return "MUSHRAH" as "mushrah"
 name = "MUSHRAH"
 name.lower()
